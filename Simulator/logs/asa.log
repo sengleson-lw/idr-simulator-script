@@ -1,0 +1,22 @@
+%ASA-4-106023: Deny udp src uip/43670 dst 10.62.65.20/111 by access-group \"LSI-TEST-TRANSIT_ACCESS_IN\" 
+%ASA-5-106100: access-list inside_access_in permitted tcp inside/uip(60759) -> outside/98.139.225.13(80) hit-cnt 1 first hit 
+%ASA-4-106023: Deny udp src uip/43670 dst 10.62.65.20/111 by access-group \"LSI-TEST-TRANSIT_ACCESS_IN\"
+%ASA-5-106100: access-list inside_access_in permitted tcp inside/uip(60759) -> outside/98.139.225.13(80) hit-cnt 1 first hit 
+%ASA-4-302013: Built outbound TCP connection 139684278 for Outside:2.40.106.199/3598 (2.40.105.199/3598) to Inside:uip/25252 (64.201.138.105/25252)
+%ASA-4-302013: Built outbound TCP connection 139684278 for Outside:2.40.106.199/3598 (2.40.105.199/3598) to Inside:uip/25252 (64.201.138.105/25252)
+%ASA-4-106023: Deny udp src uip/43670 dst 10.62.65.20/111 by access-group \"LSI-TEST-TRANSIT_ACCESS_IN\" 
+%ASA-4-106023: Deny udp src uip/43670 dst 10.62.65.20/111 by access-group \"LSI-TEST-TRANSIT_ACCESS_IN\"
+%ASA-5-106100: access-list inside_access_in permitted tcp inside/uip(60759) -> outside/199.223.232.2(80) hit-cnt 1 first hit 
+%ASA-5-106100: access-list inside_access_in permitted tcp inside/uip(60759) -> outside/194.71.107.50(80) hit-cnt 1 first hit 
+%ASA-4-106023: Deny udp src uip/43670 dst 10.62.65.20/111 by access-group \"LSI-TEST-TRANSIT_ACCESS_IN\" 
+%ASA-4-106023: Deny udp src uip/43670 dst 10.62.65.20/111 by access-group \"LSI-TEST-TRANSIT_ACCESS_IN\"
+%ASA-5-106100: access-list inside_access_in permitted tcp inside/uip(60759) -> outside/23.23.130.59(80) hit-cnt 1 first hit 
+%ASA-5-106100: access-list inside_access_in permitted tcp inside/uip(60759) -> outside/69.63.187.17(80) hit-cnt 1 first hit 
+%ASA-5-106100: access-list inside_access_in permitted tcp inside/uip(60759) -> outside/174.121.194.34(80) hit-cnt 1 first hit 
+%ASA-3-201009: TCP connection limit of number for uip on ENT exceeded 
+%ASA-5-111010: User 'uname' , running application-name from IP uip , executedcmd
+%ASA-7-111009: User 'uname' executed cmd: show logging mess 106
+%ASA-5-304002: Access denied URL http://badsite.com SRC uip DEST 72.21.91.19 on interface inside
+%ASA-5-304002: Access denied URL http://anotherbadsite.com SRC uip DEST 131.178.12.1 on interface inside
+%ASA-5-304002: Access denied URL http://iamnotatrojan.yet SRC uip DEST 5.43.162.4 on interface inside
+

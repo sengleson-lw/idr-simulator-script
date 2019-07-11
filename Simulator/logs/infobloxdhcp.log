@@ -1,0 +1,5 @@
+dhcpd[11778]: DHCPDISCOVER from umac (uwstation) via 10.0.0.102 uid 00:00:00:00:00:00:00
+dhcpd[11778]: DHCPOFFER on uip to umac (uwstation) via eth1 relay 10.0.0.102 lease-duration 120 offered-duration 3600 uid 00:00:00:00:00:00:00
+dhcpd[11778]: DHCPINFORM from uip via 10.0.0.102 TransID 28d4c490
+dhcpd[11778]: DHCPREQUEST for uip from umac (uwstation) via 10.0.0.102 TransID 930696a8 uid 00:00:00:00:00:00:00 (RENEW)
+dhcpd[11778]: DHCPACK on uip to umac (uwstation) via eth2 relay 10.0.0.102 lease-duration 14378 (RENEW) uid 00:00:00:00:00:00:00

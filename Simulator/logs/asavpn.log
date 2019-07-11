@@ -1,0 +1,32 @@
+%ASA-6-716038: Authentication: successful, group = SIM user = uname, Session Type: WebVPN
+%ASA-6-716038: Authentication: successful, group = SIM user = uname, Session Type: WebVPN
+%ASA-6-716039: Authentication: rejected, group = SIM user = uname, Session Type: WebVPN
+%ASA-6-716039: Authentication: rejected, group = SIM user = uname, Session Type: WebVPN
+%ASA-6-721016: (device) WebVPN session for client user uname, IP 2.73.13.2 has been created.
+%ASA-6-721016: (device) WebVPN session for client user uname, IP 5.45.152.3 has been created.
+%ASA-6-721016: (device) WebVPN session for client user uname, IP 132.247.2.1 has been created.
+%ASA-6-721016: (device) WebVPN session for client user uname, IP 52.49.205.26 has been created.
+%ASA-6-113004: AAA user auth Successful: server = 10.0.0.101, User = uname, user IP = 2.73.13.2
+%ASA-6-113004: AAA user auth Successful: server = 10.0.0.101, User = uname, user IP = 5.45.152.3
+%ASA-6-113004: AAA user auth Successful: server = 10.0.0.101, User = uname, user IP = 132.247.2.1
+%ASA-6-113004: AAA user auth Successful: server = 10.0.0.101, User = uname, user IP = 52.49.205.26
+%ASA-6-113005: AAA user authentication Rejected : reason = Invalid password : server = 10.10.10.101 : user = uname : user IP = 2.73.13.2
+%ASA-6-113005: AAA user authentication Rejected : reason = Invalid password : server = 10.10.10.101 : user = uname : user IP = 5.45.152.3
+%ASA-6-113005: AAA user authentication Rejected : reason = Invalid password : server = 10.10.10.101 : user = uname : user IP = 132.247.2.1
+%ASA-6-113005: AAA user authentication Rejected : reason = Invalid password : server = 10.10.10.101 : user = uname : user IP = 52.49.205.26
+%ASA-3-713167: Group = SIM, user = uname, IP = 2.73.13.2, Remote peer has failed user authentication - check configured username and password 
+%ASA-3-713167: Group = SIM, user = uname, IP = 5.45.152.3, Remote peer has failed user authentication - check configured username and password
+%ASA-3-713167: Group = SIM, user = uname, IP = 132.247.2.1, Remote peer has failed user authentication - check configured username and password 
+%ASA-3-713167: Group = SIM, user = uname, IP = 52.49.205.26, Remote peer has failed user authentication - check configured username and password 
+%ASA-6-713228: Group = SIM, user = uname, IP = 2.73.13.2, Assigned private IP address uip
+%ASA-6-713228: Group = SIM, user = uname, IP = 5.45.152.3, Assigned private IP address uip
+%ASA-6-713228: Group = SIM, user = uname, IP = 132.247.2.1, Assigned private IP address uip
+%ASA-6-713228: Group = SIM, user = uname, IP = 52.49.205.26, Assigned private IP address uip
+%ASA-7-722029: Group SIM User uname IP uip SVC Session Termination: Conns: connections, DPD Conns: 1, Comp resets: 0, Dcmp resets: 0
+%ASA-7-722029: Group SIM User uname IP uip SVC Session Termination: Conns: connections, DPD Conns: 1, Comp resets: 0, Dcmp resets: 0
+%ASA-7-722029: Group SIM User uname IP uip SVC Session Termination: Conns: connections, DPD Conns: 1, Comp resets: 0, Dcmp resets: 0
+%ASA-7-722029: Group SIM User uname IP uip SVC Session Termination: Conns: connections, DPD Conns: 1, Comp resets: 0, Dcmp resets: 0
+%ASA-6-713228: Group = VPNUser, Username = uname, IP = 2.73.13.2, Assigned private IP address uip to remote user
+%ASA-6-713228: Group = VPNUser, Username = uname, IP = 5.45.152.3, Assigned private IP address uip to remote user
+%ASA-6-713228: Group = VPNUser, Username = uname, IP = 132.247.2.1, Assigned private IP address uip to remote user
+%ASA-6-713228: Group = VPNUser, Username = uname, IP = 52.49.205.26, Assigned private IP address uip to remote user

@@ -1,0 +1,6 @@
+[1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [Classification: Potentially Bad Traffic] [Priority: 2]: {TCP} uip:55858 -> 192.168.50.160:1433
+[1:2100366:8] GPL ICMP_INFO PING *NIX [Classification: Misc activity] [Priority: 3] {ICMP} 62.211.212.40:8 -> uip:0
+[1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} uip:68 -> 255.255.255.255:67
+[1:2012811:2] ET DNS DNS Query to a .tk domain - Likely Hostile [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} uip:1029 -> 4.2.2.3:53
+[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download [**] [Classification: A Network Trojan was Detected] [Priority: 1] {TCP} 178.162.167.35:80 -> uip:1043
+[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected [**] [Classification: A Network Trojan was Detected] [Priority: 1] {UDP} uip:1067 -> 66.85.130.234:53

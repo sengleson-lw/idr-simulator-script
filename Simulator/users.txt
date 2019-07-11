@@ -1,0 +1,11 @@
+mschumacher,10.0.0.7,local,00:00:00:00:00:00:07,workstation-mschumacher
+asenna,10.0.0.12,local,00:00:00:00:00:00:12,workstation-asenna
+jclark,10.0.0.33,local,00:00:00:00:00:00:33,workstation-jclark
+jmfangio,10.0.0.5,local,00:00:00:00:00:00:05,workstation-jmfangio
+mhakkinen,10.0.0.1,local,00:00:00:00:00:00:01,workstation-mhakkinen
+kraikkonen,10.0.0.2,local,00:00:00:00:00:00:02,workstation-kraikkonen
+svettel,10.0.0.3,local,00:00:00:00:00:00:03,workstation-svettel
+aprost,10.0.0.6,VPN,00:00:00:00:00:00:06,workstation-aprost
+falonso,10.0.0.8,VPN,00:00:00:00:00:00:08,workstation-falonso
+nlauda,10.0.0.4,VPN,00:00:00:00:00:00:04,workstation-nlauda
+jstewart,10.0.0.9,local,00:00:00:00:00:00:09,workstation-jstewart
